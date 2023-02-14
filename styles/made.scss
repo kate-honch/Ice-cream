@@ -1,0 +1,285 @@
+.made {
+    position: relative;
+    background: #84A178;
+
+    &__subtitle {
+        padding: 60px 0 12px 0;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FCFCFC;
+    }
+
+    &__title {
+        width: 200px;
+        margin: 0 auto;
+        font-family: 'Seymour One';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 38px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #FCFCFC;
+    }
+    
+    &__cow {
+        display: block;
+        margin: 0 auto;
+        padding-bottom: 40px;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.7s;
+            cursor: pointer;
+        }
+    }
+
+    &__text {
+        width: 220px;
+        margin: 0 auto;
+        font-family: 'Montserrat';
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 176%;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FCFCFC; 
+
+        &--mid {
+            padding-top: 5px;
+        }
+
+        &--bot {
+            display: none;
+        }
+    }
+
+    &__btn {
+        position: relative;
+        left: 50%;
+        transform: translate(-50%,0);
+        margin: 20px 18px 42px 0;
+        width: 164px;
+        height: 42px;
+        background-image: url(../images/read-more-btn.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        cursor: pointer;
+
+        &:hover {
+            background-position: 0 50%;
+        }
+        
+        &:active {
+            background-position: 0 100%;
+        }
+    }
+
+    &__container {
+        width: 230px;
+        margin: 0 auto;
+        text-align: center;
+        color: #FCFCFC;
+    }
+
+    &__icon {
+        margin-bottom: 16px;
+    }
+    
+    &__number {   
+        margin-bottom: 18px;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #FCFCFC;
+    }
+    
+    &__info {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #FCFCFC;
+    }
+
+    &__block {
+        margin-bottom: 30px;
+
+        &:last-child {
+            margin: 0;
+        }
+    }
+    
+    &__ice-creams {
+        display: block;
+        padding: 54px 0 37px;
+        margin: 0 auto;
+
+        &:hover {
+            transform: scale(1.1);
+            transition: 0.7s;
+            cursor: pointer;
+        }
+    }
+
+    @media (min-width: 768px) {
+        &__subtitle {
+            font-size: 22px;
+            line-height: 27px;
+        }
+
+        &__title {
+            width: 100%;
+            font-size: 34px;
+            line-height: 43px;
+        }
+
+        &__text{
+            width: 336px;
+            text-align: start;
+            
+            &--mid {
+                padding: 8px 0;
+            }
+
+            &--bot {
+                display: block;
+            }
+        }
+            
+        &__box {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            width: 704px;
+            margin: 0 auto;
+            padding-top: 72px;
+        }
+
+        &__cow {
+            margin: 0;
+            width: 50%;
+            height: 355.88px;
+        }
+
+        &__btn {
+            position: absolute;
+            left: auto;
+            bottom: 48px;
+            right: 172px;
+            transform: none;
+            margin: 0;
+        }
+
+        &__container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 616px;
+            margin: 0 auto;
+        }
+
+        &__block {
+            width: 152px;
+            height: 253px;
+            margin: 0;
+        }
+
+        &__icon {
+            margin-bottom: 32px;
+        }
+
+        &__number {
+            font-size: 48px;
+            line-height: 59px;
+        }
+
+        &__info {
+            width: 100%;
+            font-weight: 400;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 174%;
+        }
+
+        &__ice-creams {
+            width: 704px;
+            height: 327px;
+            padding: 40px 0 100px;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        &__subtitle {
+            font-size: 30px;
+            line-height: 37px;
+        }
+
+        &__title {
+            font-size: 36px;
+            line-height: 45px;
+        }
+
+        &__box {
+            width: 1063px;
+            padding-top: 82px;
+        }
+
+        &__cow {
+            width: 500px;
+            height: 529px;
+        }
+
+        &__text {
+            width: 463px;
+            font-size: 16px;
+        }
+
+        &__btn {
+            bottom: 156px;
+            right: 296px;
+        }
+
+        &__container {
+            width: 1168px;
+        }
+
+        &__block {
+            width: 360px;
+            height: auto;
+        }
+
+        &__icon {
+            margin-bottom: 40px;
+        }
+
+        &__number {
+            margin-bottom: 16px;
+            font-size: 58px;
+            line-height: 71px;
+        }
+
+        &__info {
+            font-size: 16px;
+            line-height: 176%;
+        }
+
+        &__ice-creams {
+            width: 1013px;
+            height: 422px;
+            padding: 93px 0 84px;
+        }
+    }
+}
+
+
+

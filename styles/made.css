@@ -1,0 +1,238 @@
+.made {
+  position: relative;
+  background: #84A178;
+}
+.made__subtitle {
+  padding: 60px 0 12px 0;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+.made__title {
+  width: 200px;
+  margin: 0 auto;
+  font-family: "Seymour One";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+.made__cow {
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.made__cow:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  cursor: pointer;
+}
+.made__text {
+  width: 220px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 176%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FCFCFC;
+}
+.made__text--mid {
+  padding-top: 5px;
+}
+.made__text--bot {
+  display: none;
+}
+.made__btn {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  margin: 20px 18px 42px 0;
+  width: 164px;
+  height: 42px;
+  background-image: url(../images/read-more-btn.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+.made__btn:hover {
+  background-position: 0 50%;
+}
+.made__btn:active {
+  background-position: 0 100%;
+}
+.made__container {
+  width: 230px;
+  margin: 0 auto;
+  text-align: center;
+  color: #FCFCFC;
+}
+.made__icon {
+  margin-bottom: 16px;
+}
+.made__number {
+  margin-bottom: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+.made__info {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 170%;
+  text-align: center;
+  color: #FCFCFC;
+}
+.made__block {
+  margin-bottom: 30px;
+}
+.made__block:last-child {
+  margin: 0;
+}
+.made__ice-creams {
+  display: block;
+  padding: 54px 0 37px;
+  margin: 0 auto;
+}
+.made__ice-creams:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .made__subtitle {
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .made__title {
+    width: 100%;
+    font-size: 34px;
+    line-height: 43px;
+  }
+  .made__text {
+    width: 336px;
+    text-align: start;
+  }
+  .made__text--mid {
+    padding: 8px 0;
+  }
+  .made__text--bot {
+    display: block;
+  }
+  .made__box {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 704px;
+    margin: 0 auto;
+    padding-top: 72px;
+  }
+  .made__cow {
+    margin: 0;
+    width: 50%;
+    height: 355.88px;
+  }
+  .made__btn {
+    position: absolute;
+    left: auto;
+    bottom: 48px;
+    right: 172px;
+    transform: none;
+    margin: 0;
+  }
+  .made__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 616px;
+    margin: 0 auto;
+  }
+  .made__block {
+    width: 152px;
+    height: 253px;
+    margin: 0;
+  }
+  .made__icon {
+    margin-bottom: 32px;
+  }
+  .made__number {
+    font-size: 48px;
+    line-height: 59px;
+  }
+  .made__info {
+    width: 100%;
+    font-weight: 400;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 174%;
+  }
+  .made__ice-creams {
+    width: 704px;
+    height: 327px;
+    padding: 40px 0 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .made__subtitle {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .made__title {
+    font-size: 36px;
+    line-height: 45px;
+  }
+  .made__box {
+    width: 1063px;
+    padding-top: 82px;
+  }
+  .made__cow {
+    width: 500px;
+    height: 529px;
+  }
+  .made__text {
+    width: 463px;
+    font-size: 16px;
+  }
+  .made__btn {
+    bottom: 156px;
+    right: 296px;
+  }
+  .made__container {
+    width: 1168px;
+  }
+  .made__block {
+    width: 360px;
+    height: auto;
+  }
+  .made__icon {
+    margin-bottom: 40px;
+  }
+  .made__number {
+    margin-bottom: 16px;
+    font-size: 58px;
+    line-height: 71px;
+  }
+  .made__info {
+    font-size: 16px;
+    line-height: 176%;
+  }
+  .made__ice-creams {
+    width: 1013px;
+    height: 422px;
+    padding: 93px 0 84px;
+  }
+}/*# sourceMappingURL=made.css.map */

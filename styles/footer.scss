@@ -1,0 +1,218 @@
+.footer {
+    position: relative;
+    height: 420px;
+    background-color: #84A178;
+
+    &__container {
+        padding: 0 20px;
+    }
+
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 152px;
+        margin-bottom: 38px;
+        float: right;
+    }
+    
+    &__icon {
+        position: relative;
+        width: 34px;
+        height: 34px;
+        cursor: pointer;
+    }
+    
+    &__gitHub {
+        background-image: url(../images/icons/gitHub.svg);
+    }
+    
+    &__telegram {
+        background-image: url(../images/icons/telegram.svg);
+    }
+    
+    &__facebook {
+        background-image: url(../images/icons/facebook.svg);
+    }
+    
+    &__gitHub:hover,
+    &__telegram:hover,
+    &__facebook:hover {
+        background-position: 0 100%;
+        height: 32px;
+    }
+    
+    &__text {
+        width: 232px;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-transform: uppercase;
+        color: #FCFCFC
+    }
+    
+    &__title {
+        margin: 17px 0 42px;
+        font-size: 34px;
+        line-height: 41px;
+        letter-spacing: 0.04em;
+    }
+
+    &__block {
+        border-top: 1px solid #E1E1E1;
+        margin-top: 40px;
+        padding-top: 16px;
+    }
+
+    &__info {
+        width: 157px;
+        margin: 0 auto;
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 152%;
+        text-align: center;
+        color: #7A7A7A;
+    }
+
+    &__contact {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 186%;
+        color: #131313;
+    }
+
+    &__number {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 186%;
+        color: #FCFCFC;
+    }
+    
+    &__wrap {
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+    }
+    
+    &__number {
+        margin-left: 5px;
+        color: #FCFCFC;
+        cursor: pointer;
+
+        &:hover {
+            color: #5e5555;
+        }
+    }
+}
+
+.footer {
+    @media (min-width: 768px) {
+        height: 256px;
+
+        &__container {
+            padding: 0 31px 0 34px;
+        }
+       
+
+        &__subtitle {
+            width: 352px;
+            font-size: 26px;
+            line-height: 32px;
+        }
+
+        &__title {
+            width: 340px;
+            margin: 9px 0 0;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 59px;
+            letter-spacing: 0.06em;
+        }
+
+        &__block {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            padding-top: 14px;
+            margin: 0;
+        }
+
+        &__info {
+            width: 100%;
+            line-height: 186%;
+            letter-spacing: 0.02em;
+        }
+
+        &__icons {
+            position: absolute;
+            bottom: 50px;
+            right: 32px;
+            width: 162px;
+            margin: 0;
+        }
+
+        &__wrap {
+            position: absolute;
+            right: 31px;
+            bottom: 96px;
+            width: auto;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        height: 210px;
+
+        &__container {
+            padding: 0 16px;
+        }
+
+        &__subtitle {
+            font-size: 30px;
+            line-height: 37px;
+            width: 100%;
+        }
+
+        &__title {
+            width: 100%;
+            margin-top: 14px;
+            font-size: 58px;
+            line-height: 71px;
+        }
+
+        &__icons {
+            bottom: 186px;
+            right: 16px;
+            width: 162px;
+        }
+
+        &__wrap {
+            right: 16px;
+            bottom: 116px;
+        }
+
+        &__contact {
+            font-size: 16px;
+            line-height: 186%;
+            letter-spacing: 0.02em;
+            color: #131313;
+        }
+
+        &__number {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 186%;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+        }
+
+        &__block {
+            bottom: 10px;
+            padding-top: 12px;
+        }
+    }
+}
+
